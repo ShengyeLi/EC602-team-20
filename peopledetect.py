@@ -62,6 +62,7 @@ if __name__ == '__main__':
         draw_detections(img, found)
         draw_detections(img, found_filtered, 3)
         print('%d (%d) found' % (len(found_filtered), len(found)))
+ #...........code that below this line appear in the original code, but doesn't work............
  #       cv2.imshow('img', img)
  #       ch = cv2.waitKey()
  #       if ch == 27:
