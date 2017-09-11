@@ -45,7 +45,7 @@ if __name__ == '__main__':
         try:
             img = cv2.imread(fn)
             if img is None:
-                print('Failed to load image file:', fn)
+                print('Sorry, this image cannot be processed:', fn)
                 continue
         except:
             print('loading error')
@@ -66,4 +66,4 @@ if __name__ == '__main__':
  #       ch = cv2.waitKey()
  #       if ch == 27:
  #           break
- #   cv2.destroyAllWindows()
+ #     cv2.destroyAllWindows()
