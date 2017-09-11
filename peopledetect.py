@@ -45,7 +45,7 @@ if __name__ == '__main__':
         try:
             img = cv2.imread(fn)
             if img is None:
-                print('Sory, this image cannot be processed:', fn)
+                print('Sorry, this image cannot be processed:', fn)
                 continue
         except:
             print('loading error')
