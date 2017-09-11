@@ -61,7 +61,7 @@ if __name__ == '__main__':
                 found_filtered.append(r)
         draw_detections(img, found)
         draw_detections(img, found_filtered, 3)
-        print('"The number of people found in the image are"%d ", the total number of raw data points found was"(%d)' % (len(found_filtered), len(found)))
+        print('The number of people found in the image are %d, the total number of raw data points found was(%d)' % (len(found_filtered), len(found)))
  #       cv2.imshow('img', img)
  #       ch = cv2.waitKey()
  #       if ch == 27:
