@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 '''
-example to detect upright people in images using HOG features
-Usage:
+This is a test code fot Ec601 class, we use this example to detect upright people in images using HOG features
+Usage format:
     peopledetect.py <image_names>
-Press any key to continue, ESC to stop.
+Press Escape to Stop code
 '''
 
-# Python 2/3 compatibility
+# Compatibile with Python 2/3
 from __future__ import print_function
 
 import numpy as np
@@ -62,6 +62,7 @@ if __name__ == '__main__':
         draw_detections(img, found)
         draw_detections(img, found_filtered, 3)
         print('The number of people found in the image are %d, the total number of raw data points found was(%d)' % (len(found_filtered), len(found)))
+ # //The lines beyond this point don't run due to lack of a reciprocative library
  #       cv2.imshow('img', img)
  #       ch = cv2.waitKey()
  #       if ch == 27:
