@@ -33,7 +33,8 @@ if __name__ == '__main__':
     from glob import glob
     import itertools as it
 
-    print(__doc__)
+    #print(__doc__)
+    print(___image_name___)
 
     hog = cv2.HOGDescriptor()
     hog.setSVMDetector( cv2.HOGDescriptor_getDefaultPeopleDetector() )
