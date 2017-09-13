@@ -65,7 +65,7 @@ if __name__ == '__main__':
         draw_detections(img, found_filtered, 3)
         print('The number of people found in the image are %d, the total number of raw data points found was(%d)' % (len(found_filtered), len(found)))
  # //The lines beyond this point don't run due to lack of a reciprocative library
- #       cv2.imshow('img', img)
+ #       cv2.imshow('img', img) // maybe there's a problem of showing image
  #       ch = cv2.waitKey()
  #       if ch == 27:
  #           break
