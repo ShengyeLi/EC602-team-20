@@ -7,6 +7,8 @@ Usage format:
 Press Escape to Stop code
 '''
 
+#could only detect peaple that are really obvious in the images
+
 # Compatibile with Python 2/3
 from __future__ import print_function
 
